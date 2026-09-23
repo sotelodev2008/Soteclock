@@ -61,30 +61,18 @@ soteclock/
 - **🎨 Customization** — Personalize colors, fonts, and background (RGB)
 - **🌙 Dark Mode** — Toggle between white numbers or dark ones
 
-## 💻 Quick Start
-
-```cpp
-#include "src/window/window.hpp"
-#include <GLFW/glfw3.h>
-
-int main(){
-    window::init();
-    window::loop();
-    window::end();
-    return 0;
-}
 🔨 Building
 Prerequisites
-C++ compiler (C++11 or higher)
-GLFW3
-OpenGL
-Dear ImGui
-Compilation
-Link against the required libraries in your build system (CMake, Makefile, etc.).
+* C++ compiler (C++11 or higher)
+* GLFW3
+* OpenGL
+* Dear ImGui
+
+> ### **Compilation**
+> Link against the required libraries in your build system (I can only provide a [xmake](https://xmake.io/) file right now..)
 
 📝 Notes
-Configuration will be handled via .ini files for easy editing
-All timezones (UTC) will be supported
-UI theming will allow full RGB color customization
-Language files will be external for community translations
-<p align="center"> <i>🔨 Built with code and patience 🔨</i> </p> ```
+* Configuration will be handled via .ini files for easy editing
+* All timezones (UTC) will be supported
+* UI theming will allow full RGB color customization
+* Language files will be external for community translations
